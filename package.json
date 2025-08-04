@@ -1,0 +1,29 @@
+{
+  "name": "mindpalace-backend",
+  "version": "1.0.0",
+  "description": "The backend API for **MindPalace** — a second brain that helps you organize notes, flashcards, bookmarks, and files into a personal knowledge system.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasool404/mindpalace-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasool404/mindpalace-backend/issues"
+  },
+  "homepage": "https://github.com/rasool404/mindpalace-backend#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  }
+}
